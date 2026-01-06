@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      .container {
+        display: flex;
+        background-color: DodgerBlue;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+        flex-direction: row;
+        /* flex-direction: column; */
+
+        flex-wrap: wrap;
+        /* flex-wrap: nowrap; */
+        /* flex-wrap: wrap-reverse; */
+
+        /* justify-content: flex-end; */
+        /* justify-content: flex-start; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        /* justify-content: space-evenly; */
+        /* justify-content: center; */
+
+        /* align-items: center; */
+      }
+      .container div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>Items 1</div>
+      <div>Items 2</div>
+      <div>Items 3</div>
+      <div>Items 4</div>
+      <div>Items 5</div>
+      <div>Items 6</div>
+      <div>Items 7</div>
+      <div>Items 8</div>
+      <div>Items 9</div>
+    </div>
+  </body>
+</html>
